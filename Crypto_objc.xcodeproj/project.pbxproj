@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24672FF42BAD5AB500515E54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24672FF32BAD5AB500515E54 /* AppDelegate.m */; };
+		24672FFF2BAD5AB700515E54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24672FFE2BAD5AB700515E54 /* Assets.xcassets */; };
+		246730022BAD5AB700515E54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246730002BAD5AB700515E54 /* LaunchScreen.storyboard */; };
+		246730052BAD5AB700515E54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 246730042BAD5AB700515E54 /* main.m */; };
+		246730102BAD5B9A00515E54 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467300D2BAD5B9A00515E54 /* MyTabBarController.m */; };
+		246730112BAD5B9A00515E54 /* MyNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467300F2BAD5B9A00515E54 /* MyNavgationController.m */; };
+		246730152BAD5C2600515E54 /* AsymmetryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246730132BAD5C2600515E54 /* AsymmetryViewController.m */; };
+		246730162BAD5C2600515E54 /* AsymmetryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 246730142BAD5C2600515E54 /* AsymmetryViewController.xib */; };
+		2467301A2BAD5C4100515E54 /* SymmetryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246730182BAD5C4100515E54 /* SymmetryViewController.m */; };
+		2467301B2BAD5C4100515E54 /* SymmetryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 246730192BAD5C4100515E54 /* SymmetryViewController.xib */; };
+		2467301F2BAD5C7300515E54 /* HashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467301D2BAD5C7300515E54 /* HashViewController.m */; };
+		246730202BAD5C7300515E54 /* HashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2467301E2BAD5C7300515E54 /* HashViewController.xib */; };
+		246730262BAD5EA100515E54 /* RSAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 246730242BAD5EA100515E54 /* RSAUtil.m */; };
+		2467302A2BAD5ED100515E54 /* CryptoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 246730282BAD5ED100515E54 /* CryptoUtil.m */; };
+		2467302D2BAD624300515E54 /* AESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467302C2BAD624300515E54 /* AESUtil.m */; };
+		246730322BAD660500515E54 /* XncodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246730302BAD660500515E54 /* XncodeViewController.m */; };
+		246730332BAD660500515E54 /* XncodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 246730312BAD660500515E54 /* XncodeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24672FEF2BAD5AB500515E54 /* Crypto_objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto_objc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24672FF22BAD5AB500515E54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24672FF32BAD5AB500515E54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24672FFE2BAD5AB700515E54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		246730012BAD5AB700515E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		246730032BAD5AB700515E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246730042BAD5AB700515E54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2467300C2BAD5B9A00515E54 /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		2467300D2BAD5B9A00515E54 /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		2467300E2BAD5B9A00515E54 /* MyNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavgationController.h; sourceTree = "<group>"; };
+		2467300F2BAD5B9A00515E54 /* MyNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavgationController.m; sourceTree = "<group>"; };
+		246730122BAD5C2600515E54 /* AsymmetryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsymmetryViewController.h; sourceTree = "<group>"; };
+		246730132BAD5C2600515E54 /* AsymmetryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsymmetryViewController.m; sourceTree = "<group>"; };
+		246730142BAD5C2600515E54 /* AsymmetryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AsymmetryViewController.xib; sourceTree = "<group>"; };
+		246730172BAD5C4100515E54 /* SymmetryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SymmetryViewController.h; sourceTree = "<group>"; };
+		246730182BAD5C4100515E54 /* SymmetryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SymmetryViewController.m; sourceTree = "<group>"; };
+		246730192BAD5C4100515E54 /* SymmetryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SymmetryViewController.xib; sourceTree = "<group>"; };
+		2467301C2BAD5C7300515E54 /* HashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashViewController.h; sourceTree = "<group>"; };
+		2467301D2BAD5C7300515E54 /* HashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashViewController.m; sourceTree = "<group>"; };
+		2467301E2BAD5C7300515E54 /* HashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HashViewController.xib; sourceTree = "<group>"; };
+		246730242BAD5EA100515E54 /* RSAUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAUtil.m; sourceTree = "<group>"; };
+		246730252BAD5EA100515E54 /* RSAUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAUtil.h; sourceTree = "<group>"; };
+		246730282BAD5ED100515E54 /* CryptoUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptoUtil.m; sourceTree = "<group>"; };
+		246730292BAD5ED100515E54 /* CryptoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptoUtil.h; sourceTree = "<group>"; };
+		2467302B2BAD624300515E54 /* AESUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESUtil.h; sourceTree = "<group>"; };
+		2467302C2BAD624300515E54 /* AESUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESUtil.m; sourceTree = "<group>"; };
+		2467302F2BAD660500515E54 /* XncodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XncodeViewController.h; sourceTree = "<group>"; };
+		246730302BAD660500515E54 /* XncodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XncodeViewController.m; sourceTree = "<group>"; };
+		246730312BAD660500515E54 /* XncodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XncodeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24672FEC2BAD5AB500515E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24672FE62BAD5AB500515E54 = {
+			isa = PBXGroup;
+			children = (
+				24672FF12BAD5AB500515E54 /* Crypto_objc */,
+				24672FF02BAD5AB500515E54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24672FF02BAD5AB500515E54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24672FEF2BAD5AB500515E54 /* Crypto_objc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24672FF12BAD5AB500515E54 /* Crypto_objc */ = {
+			isa = PBXGroup;
+			children = (
+				2467302E2BAD65BF00515E54 /* xncode */,
+				246730212BAD5E2700515E54 /* Asymmetry */,
+				246730222BAD5E3400515E54 /* Symmetry */,
+				246730232BAD5E3B00515E54 /* Hash */,
+				246730272BAD5EC100515E54 /* utils */,
+				2467300B2BAD5B7F00515E54 /* navigation */,
+				24672FFE2BAD5AB700515E54 /* Assets.xcassets */,
+				246730002BAD5AB700515E54 /* LaunchScreen.storyboard */,
+				246730032BAD5AB700515E54 /* Info.plist */,
+				246730042BAD5AB700515E54 /* main.m */,
+			);
+			path = Crypto_objc;
+			sourceTree = "<group>";
+		};
+		2467300B2BAD5B7F00515E54 /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				24672FF22BAD5AB500515E54 /* AppDelegate.h */,
+				24672FF32BAD5AB500515E54 /* AppDelegate.m */,
+				2467300C2BAD5B9A00515E54 /* MyTabBarController.h */,
+				2467300D2BAD5B9A00515E54 /* MyTabBarController.m */,
+				2467300E2BAD5B9A00515E54 /* MyNavgationController.h */,
+				2467300F2BAD5B9A00515E54 /* MyNavgationController.m */,
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
+		246730212BAD5E2700515E54 /* Asymmetry */ = {
+			isa = PBXGroup;
+			children = (
+				246730252BAD5EA100515E54 /* RSAUtil.h */,
+				246730242BAD5EA100515E54 /* RSAUtil.m */,
+				246730122BAD5C2600515E54 /* AsymmetryViewController.h */,
+				246730132BAD5C2600515E54 /* AsymmetryViewController.m */,
+				246730142BAD5C2600515E54 /* AsymmetryViewController.xib */,
+			);
+			path = Asymmetry;
+			sourceTree = "<group>";
+		};
+		246730222BAD5E3400515E54 /* Symmetry */ = {
+			isa = PBXGroup;
+			children = (
+				2467302B2BAD624300515E54 /* AESUtil.h */,
+				2467302C2BAD624300515E54 /* AESUtil.m */,
+				246730172BAD5C4100515E54 /* SymmetryViewController.h */,
+				246730182BAD5C4100515E54 /* SymmetryViewController.m */,
+				246730192BAD5C4100515E54 /* SymmetryViewController.xib */,
+			);
+			path = Symmetry;
+			sourceTree = "<group>";
+		};
+		246730232BAD5E3B00515E54 /* Hash */ = {
+			isa = PBXGroup;
+			children = (
+				2467301C2BAD5C7300515E54 /* HashViewController.h */,
+				2467301D2BAD5C7300515E54 /* HashViewController.m */,
+				2467301E2BAD5C7300515E54 /* HashViewController.xib */,
+			);
+			path = Hash;
+			sourceTree = "<group>";
+		};
+		246730272BAD5EC100515E54 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				246730292BAD5ED100515E54 /* CryptoUtil.h */,
+				246730282BAD5ED100515E54 /* CryptoUtil.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		2467302E2BAD65BF00515E54 /* xncode */ = {
+			isa = PBXGroup;
+			children = (
+				2467302F2BAD660500515E54 /* XncodeViewController.h */,
+				246730302BAD660500515E54 /* XncodeViewController.m */,
+				246730312BAD660500515E54 /* XncodeViewController.xib */,
+			);
+			path = xncode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24672FEE2BAD5AB500515E54 /* Crypto_objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246730082BAD5AB700515E54 /* Build configuration list for PBXNativeTarget "Crypto_objc" */;
+			buildPhases = (
+				24672FEB2BAD5AB500515E54 /* Sources */,
+				24672FEC2BAD5AB500515E54 /* Frameworks */,
+				24672FED2BAD5AB500515E54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crypto_objc;
+			productName = Crypto_objc;
+			productReference = 24672FEF2BAD5AB500515E54 /* Crypto_objc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24672FE72BAD5AB500515E54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					24672FEE2BAD5AB500515E54 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 24672FEA2BAD5AB500515E54 /* Build configuration list for PBXProject "Crypto_objc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24672FE62BAD5AB500515E54;
+			productRefGroup = 24672FF02BAD5AB500515E54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24672FEE2BAD5AB500515E54 /* Crypto_objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24672FED2BAD5AB500515E54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2467301B2BAD5C4100515E54 /* SymmetryViewController.xib in Resources */,
+				246730332BAD660500515E54 /* XncodeViewController.xib in Resources */,
+				246730162BAD5C2600515E54 /* AsymmetryViewController.xib in Resources */,
+				246730202BAD5C7300515E54 /* HashViewController.xib in Resources */,
+				246730022BAD5AB700515E54 /* LaunchScreen.storyboard in Resources */,
+				24672FFF2BAD5AB700515E54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24672FEB2BAD5AB500515E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246730322BAD660500515E54 /* XncodeViewController.m in Sources */,
+				246730262BAD5EA100515E54 /* RSAUtil.m in Sources */,
+				246730152BAD5C2600515E54 /* AsymmetryViewController.m in Sources */,
+				24672FF42BAD5AB500515E54 /* AppDelegate.m in Sources */,
+				2467302A2BAD5ED100515E54 /* CryptoUtil.m in Sources */,
+				2467301A2BAD5C4100515E54 /* SymmetryViewController.m in Sources */,
+				246730052BAD5AB700515E54 /* main.m in Sources */,
+				2467301F2BAD5C7300515E54 /* HashViewController.m in Sources */,
+				2467302D2BAD624300515E54 /* AESUtil.m in Sources */,
+				246730102BAD5B9A00515E54 /* MyTabBarController.m in Sources */,
+				246730112BAD5B9A00515E54 /* MyNavgationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		246730002BAD5AB700515E54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				246730012BAD5AB700515E54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		246730062BAD5AB700515E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		246730072BAD5AB700515E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		246730092BAD5AB700515E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YBWG2X244;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Crypto_objc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "数据安全";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.jobs8.Crypto-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2467300A2BAD5AB700515E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YBWG2X244;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Crypto_objc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "数据安全";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.jobs8.Crypto-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24672FEA2BAD5AB500515E54 /* Build configuration list for PBXProject "Crypto_objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246730062BAD5AB700515E54 /* Debug */,
+				246730072BAD5AB700515E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		246730082BAD5AB700515E54 /* Build configuration list for PBXNativeTarget "Crypto_objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246730092BAD5AB700515E54 /* Debug */,
+				2467300A2BAD5AB700515E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24672FE72BAD5AB500515E54 /* Project object */;
+}
